@@ -13,9 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    point2f.cpp \
+    node.cpp \
+    graphwidget.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    point2f.h \
+    node.h \
+    graphwidget.h
 
 OTHER_FILES += \
     ReadMe.txt

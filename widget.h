@@ -2,11 +2,19 @@
 #define WIDGET_H
 
 #include <QWidget>
-#include <QLabel>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QGroupBox>
-#include <QLayout>
+
+class QLabel;
+class QLineEdit;
+class QPushButton;
+class QGroupBox;
+
+class QDoubleValidator;
+
+class QGridLayout;
+class QHBoxLayout;
+class QVBoxLayout;
+
+class GraphWidget;
 
 class PointCircle : public QWidget
 {
@@ -24,7 +32,9 @@ private:
     void createPointInput();
     void createButton();
 
-    QLabel *graphic;
+    GraphWidget *graphic;
+
+    QDoubleValidator *validator;
 
     QGroupBox *pkt1;
     QGridLayout *layoutPkt1;
