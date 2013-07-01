@@ -6,6 +6,7 @@
 
 Node::Node(GraphWidget* graphWidget) : graph(graphWidget)
 {
+    setFlag(ItemIsMovable);
 }
 
 QRectF Node::boundingRect() const

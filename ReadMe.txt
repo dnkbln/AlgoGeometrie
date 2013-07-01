@@ -14,3 +14,14 @@ Ausgabe: Mittelpunkt und Radius des Kreises
 
 Programm wird eine graphische Kontrolle bieten.
 
+Stand 30.6.
+
+Eingabe der Punkte -> erledigt
+Darstellung der Punkte -> erledigt
+
+ToDo:
+Berechnung Mittelpunkt und Radius implementieren
+Darstellung Kreis
+Zeichnung mit Koordinatensystem
+Datenobjekt einführen (Punkte) für GUI und graphische Interaktion
+Punkt verschiebbar machen
