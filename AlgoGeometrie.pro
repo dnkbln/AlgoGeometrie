@@ -11,17 +11,18 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = AlgoGeometrie
 TEMPLATE = app
 
-
 SOURCES += main.cpp\
         widget.cpp \
     point2f.cpp \
     node.cpp \
-    graphwidget.cpp
+    graphwidget.cpp \
+    circle.cpp
 
 HEADERS  += widget.h \
     point2f.h \
     node.h \
-    graphwidget.h
+    graphwidget.h \
+    circle.h
 
 OTHER_FILES += \
     ReadMe.txt

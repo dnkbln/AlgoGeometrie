@@ -53,6 +53,14 @@ void PointCircle::calculate()
 
     Point2f circleCenter;
     float radius = calculateCircle(circleCenter, p1, p2, p3);
+
+    graphic->setCircle(circleCenter, radius);
+
+    std::string s = "Center: "+circleCenter.toString()+"\nRadius: ";
+    QString qs(s.c_str());
+    qs.append(QString("%1").arg(radius));
+    QMessageBox::information(this, QString("SLOT-calculate"), qs,
+                             QMessageBox::Ok);
 }
 
 void PointCircle::createPointInput()

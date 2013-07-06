@@ -20,3 +20,4 @@ void Node::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWid
     painter->setPen(QPen(Qt::black, 0));
     painter->drawEllipse(-4, -4, 8, 8);
 }
+

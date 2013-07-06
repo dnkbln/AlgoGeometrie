@@ -17,4 +17,5 @@ private:
     GraphWidget *graph;
 };
 
+
 #endif // NODE_H
